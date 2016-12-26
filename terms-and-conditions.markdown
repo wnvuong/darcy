@@ -2,6 +2,7 @@
 title: Terms & Conditions
 date: 2016-12-26 17:41:00 Z
 is hidden from nav: true
+is shown in footer: true
 ---
 
 # Terms & Conditions of Use of Website
