@@ -1,7 +1,6 @@
 ---
 title: Residences
 date: 2016-12-26 16:13:00 Z
-permalink: "/dog/title"
 ---
 
 # A place to call home
