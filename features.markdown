@@ -37,6 +37,10 @@ Field name:
       * Minor home repairs
       * Prescription pick-up
       * Vehicle and bicycle maintenance service
+  Block 3:
+    Description: |-
+      ## RETAIL AMENITIES
+      The Darcy brings a dynamic combination of new stores to Bethesda Avenue. With over 8,600 square feet of retail on the first floor, The Darcy will include a signature restaurant and boutique shops for residents to enjoy.
 ---
 
 # Amenities & Services
