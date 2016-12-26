@@ -1,5 +1,8 @@
 ---
 title: '602'
 date: 2016-12-26 15:24:00 Z
+image: "/uploads/602.png"
+square footage: 990
 ---
 
+2 bedroom / 2 bath + balcony
