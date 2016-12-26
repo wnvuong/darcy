@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2016-12-26 16:42:00 Z
+permalink: "/contact"
 ---
 
 # Thank you for contacting The Darcy.
