@@ -1,7 +1,7 @@
 ---
 title: Contact
 date: 2016-12-26 16:42:00 Z
-permalink: pretty
+permalink: contact
 position: 5
 ---
 
