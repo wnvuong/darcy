@@ -22,6 +22,12 @@ defaults:
     permalink: "/floorplans/:title"
     image: 
     square footage: 
+- scope:
+    path: ''
+    type: 'footer pages'
+  values:
+    permalink: "/:title"
+    is hidden from nav: true
 email: me@williamvuong.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
