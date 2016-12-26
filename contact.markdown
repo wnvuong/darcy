@@ -2,7 +2,7 @@
 title: Contact
 date: 2016-12-26 16:42:00 Z
 permalink: "/contact"
-position: 4
+position: 5
 ---
 
 # Thank you for contacting The Darcy.
