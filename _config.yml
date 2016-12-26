@@ -24,7 +24,7 @@ defaults:
     square footage: 
 - scope:
     path: ''
-    type: footer pages
+    type: footer-pages
   values:
     permalink: "/:title"
     is hidden from nav: true
