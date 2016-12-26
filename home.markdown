@@ -10,4 +10,3 @@ call to action:
 layout: default
 ---
 
-test
