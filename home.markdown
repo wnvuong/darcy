@@ -6,7 +6,7 @@ is hidden from nav: true
 header: ONLY 5 UNITS LEFT
 call to action:
   header: SEE AVAILABLE FLOORPLANS
-  floorplan: 
+  page: 
 layout: default
 ---
 
