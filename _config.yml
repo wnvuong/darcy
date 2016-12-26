@@ -18,7 +18,6 @@ defaults:
   values:
     permalink: "/floorplans/:title"
     image: 
-    description: 
     square footage: 
 email: me@williamvuong.com
 description: 'Write an awesome description for your new site here. You can edit this
