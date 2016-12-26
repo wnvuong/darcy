@@ -5,12 +5,6 @@ collections:
   floorplans:
     title: Floorplans
     output: true
-  footer-pages:
-    title: Footer Pages
-    output: true
-  posts:
-    title: Posts
-    output: true
   uploads:
     title: Uploads
     output: true
