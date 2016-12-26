@@ -2,6 +2,7 @@
 title: Features
 date: 2016-12-26 16:21:00 Z
 permalink: "/features"
+position: 4
 Field name:
   Block 1:
     Description: |-
