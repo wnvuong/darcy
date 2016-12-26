@@ -2,6 +2,9 @@
 title: Darcy
 timezone: UTC
 collections:
+  floorplans:
+    title: Floorplans
+    output: true
   posts:
     title: Posts
     output: true
