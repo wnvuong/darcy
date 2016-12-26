@@ -1,7 +1,7 @@
 ---
 title: Residences
 date: 2016-12-26 16:13:00 Z
-position: 1
+position: 3
 ---
 
 # A place to call home

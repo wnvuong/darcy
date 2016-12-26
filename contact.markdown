@@ -1,7 +1,7 @@
 ---
 title: Contact
 date: 2016-12-26 16:42:00 Z
-position: 5
+position: 7
 is shown in footer: true
 ---
 

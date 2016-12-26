@@ -1,6 +1,7 @@
 ---
 title: Terms & Conditions
 date: 2016-12-26 17:41:00 Z
+position: 1
 is hidden from nav: true
 is shown in footer: true
 ---
