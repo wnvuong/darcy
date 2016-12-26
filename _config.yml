@@ -11,6 +11,12 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: floorplans
+  values:
+    permalink: "/floorplans/:title"
 email: me@williamvuong.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
@@ -22,10 +28,3 @@ url: https://williamvuong.com/darcy
 twitter_username: william___vuong
 github_username: wnvuong
 markdown: kramdown
-defaults:
-  -
-    scope:
-      path: ""
-      type: "floorplans"
-    values:
-      permalink: "/floorplans/:title"
