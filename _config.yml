@@ -23,7 +23,7 @@ defaults:
     path: ''
     type: pages
   values:
-    permalink: "/:title"
+    permalink: ":title"
 email: me@williamvuong.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
