@@ -8,6 +8,8 @@ header: ONLY 5 UNITS LEFT
 call to action:
   header: SEE AVAILABLE FLOORPLANS
   page url: "/floorplans"
+  image: "/uploads/hero.png"
+Field name: 
 layout: default
 ---
 
