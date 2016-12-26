@@ -3,7 +3,7 @@ title: Privacy Policy
 date: 2016-12-26 17:40:00 Z
 position: 6
 is hidden from nav: true
-is show in footer: true
+is shown in footer: true
 ---
 
 # Privacy Policy
