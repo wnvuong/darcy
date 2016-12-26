@@ -1,7 +1,6 @@
 ---
 title: Team
 date: 2016-12-26 16:40:00 Z
-permalink: "/team"
 position: 4
 ---
 
