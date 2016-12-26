@@ -1,6 +1,7 @@
 ---
 title: Location
 date: 2016-12-26 16:15:00 Z
+permalink: "/location"
 Field name:
   Address Line 1: 7171 Woodmont Ave
   Address Line 2: 
