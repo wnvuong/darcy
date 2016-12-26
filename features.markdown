@@ -7,7 +7,17 @@ Field name:
       # BUILDING AMENITIES
       In addition to all of the retail, restaurant, and outdoor amenities that Bethesda has to offer, residents of The Darcy enjoy the highest quality building amenities to support an active lifestyle.
     List:
-    - asdf
+    - 24/7 front desk concierge service
+    - Two hospitality suites avaialble for guests
+    - Clubroom with media services
+    - Electronic package tracking system
+    - Residents' lounge with espresso maker and kitchenette
+    - State-of-the-art fitness center
+    - Secure garage with car wash bay area
+    - Daily periodicals in lounge
+    - Access to adjacent luxury apartment rooftop
+    - Bicycle parking
+    - Business center
 ---
 
 Amenities & Services
