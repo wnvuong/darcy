@@ -1,7 +1,11 @@
 .wrapper {
     max-width: $content-width;
     margin: 0 auto;
-    padding: 0 80px;
+    padding: 0 20px;
+
+    @media (min-width: $content-width + 1) {
+        padding: 0 80px;
+    }
 }
 .page {
     max-width: $content-width;
@@ -9,7 +13,7 @@
     min-height: 100%;
 }
 .site-nav-toggle-menu {
-    @media (min-width: 700px) {
+    @media (min-width: 701px) {
         display: none;
     }
     color: $grey-color-darker;
@@ -80,7 +84,7 @@
     &__link {
         display: inline-block;
         text-align: right;
-        @media (min-width: 700px) {
+        @media (min-width: 701px) {
             &:not(:last-child) { 
                 margin-right: 20px;
             }
@@ -112,7 +116,7 @@
         right: 0;
         bottom: 0;
         left: 0;
-        background-color: rgba(0,0,0,0.33)
+        background-color: rgba(0,0,0,0.1)
     }
 
     &__cta {
@@ -123,8 +127,11 @@
 
     &__cta-header {
         font-size: 40px;
-        @media (max-width: 412px) {
+        @media (max-width: 512px) {
             font-size: 30px;
+        }
+        @media (max-width: 412px) {
+            font-size: 25px;
         }
     }
 
@@ -144,9 +151,14 @@
             color: black;
         }
 
-        @media (max-width: 412px) {
+        @media (max-width: 512px) {
             font-size: 16px;
             padding: 15px 20px;
+        }        
+
+        @media (max-width: 412px) {
+            font-size: 14px;
+            padding: 10px 15px;
         }        
     }
 }
