@@ -58,6 +58,11 @@ layout: default
     marker.addListener('click', function() {
       window.open('https://www.google.com/maps?z=15&daddr=38.980555,-77.094351')
     });
+
+    google.maps.event.addDomListener(window, "resize", function() {
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(mapCenter); 
+    });
   }
 
 </script>
