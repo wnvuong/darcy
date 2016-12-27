@@ -78,18 +78,75 @@
 </header>
 
     
-    <div class="page">
-  <div class="wrapper">
-    <h1 id="in-the-heart-of-bethesda-an-exquisite-residence-awaits">In the heart of Bethesda, an exquisite residence awaits.</h1>
-
-<h2 id="the-modern-home-youve-always-wanted-in-the-neighborhood-you-already-know">The modern home you’ve always wanted, in the neighborhood you already know!</h2>
-
-<p>The Darcy on Bethesda Avenue is surrounded by world-class retail and professional businesses. Located in the heart of downtown Bethesda, The Darcy brings the world to your door steps. From freshly baked bread to designer jewelry, shopping is available just around the corner.</p>
-
-  </div>
+    <div class="page page--hero">
+  <div id="map"></div>
 </div>
 
 
+
+<div class="page">
+  <div class="wrapper"><h1 id="in-the-heart-of-bethesda-an-exquisite-residence-awaits">In the heart of Bethesda, an exquisite residence awaits.</h1>
+
+<h2 id="the-modern-home-youve-always-wanted-in-the-neighborhood-you-already-know">The modern home you’ve always wanted, in the neighborhood you already know!</h2>
+
+<p>The Darcy on Bethesda Avenue is surrounded by world-class retail and professional businesses. Located in the heart of downtown Bethesda, The Darcy brings the world to your door steps. From freshly baked bread to designer jewelry, shopping is available just around the corner.</p></div>
+</div>
+
+
+<script>
+  function initMap() {
+    var mapCenter = { lat: 38.980555, lng: -77.094351 };
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: mapCenter,
+      scrollwheel: false,
+      zoom: 12,
+      styles: [
+        {
+          "featureType": "administrative.land_parcel",
+          "elementType": "labels",
+          "stylers": [
+            {
+              "visibility": "off"
+            }
+          ]
+        },
+        {
+          "featureType": "poi",
+          "elementType": "labels.text",
+          "stylers": [
+            {
+              "visibility": "off"
+            }
+          ]
+        },
+        {
+          "featureType": "road.local",
+          "elementType": "labels",
+          "stylers": [
+            {
+              "visibility": "off"
+            }
+          ]
+        }
+      ]
+    });
+
+    var marker = new google.maps.Marker({
+      map: map,
+      position: mapCenter,
+    });
+    marker.addListener('click', function() {
+      window.open('https://www.google.com/maps?z=15&daddr=38.980555,-77.094351')
+    });
+
+    google.maps.event.addDomListener(window, "resize", function() {
+        google.maps.event.trigger(map, "resize");
+        map.setCenter(mapCenter); 
+    });
+  }
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyArw_eb6w-bqI1WUS4iwVvtamQ2Mjr3pOM&callback=initMap" async defer></script>
 
     <footer class="site-footer">
 
