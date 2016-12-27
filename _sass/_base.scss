@@ -35,4 +35,9 @@ html {
 
 a {
     text-decoration: none;
+    color: $grey-color-darker;
+    &:visited,
+    &:hover {
+        color: $grey-color-darker;
+    }
 }

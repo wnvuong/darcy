@@ -1,24 +1,20 @@
 <header class="site-header">
-
   <div class="site-header__content wrapper">
-
     <a class="site-header__title" href="{{ site.baseurl }}/">{{ site.title }}</a>
-
     <nav class="site-nav">
-      <button class="btn-menu">
-        Menu
-      </button>
-      
-      <div>
+      <input type="checkbox" id="site-nav-toggle">
+      <label class="site-nav-toggle-menu" for="site-nav-toggle">Menu</label>
+      <label class="site-nav-toggle-close" for="site-nav-toggle">Close</label>
+      <ul class="site-nav__links">
         {% assign pages = site.pages | where: 'is hidden from nav', !true | sort: 'position'  %}
         {% for my_page in pages %}
           {% if my_page.title %}
-          <a class="site-header__link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          <li class="site-nav__link">
+            <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+          </li>
           {% endif %}
         {% endfor %}
-      </div>
+      </ul>
     </nav>
-
   </div>
-
 </header>
