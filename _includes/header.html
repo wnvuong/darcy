@@ -10,7 +10,15 @@
         {% for my_page in pages %}
           {% if my_page.title and my_page["is hidden from nav"] != true %}
           <li class="site-nav__link">
-            <a href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+            <a href="{{ my_page.url | prepend: site.baseurl }}">
+              {% if my_page.title == page.title %}
+                <strong>
+                  {{ my_page.title }}
+                </strong>              
+              {% else %}
+                {{ my_page.title }}
+              {% endif %}          
+            </a>
           </li>
           {% endif %}
         {% endfor %}
