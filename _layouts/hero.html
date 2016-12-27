@@ -23,8 +23,9 @@ layout: default
   </div>
 </div>
 
+{% assign contentParsed = content | strip %}
+{% if contentParsed != '' %}
 <div class="page">
-  <div class="wrapper">
-    {{ content }}  
-  </div>
+  <div class="wrapper">{{contentParsed}}</div>
 </div>
+{% endif %}

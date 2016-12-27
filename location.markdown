@@ -2,7 +2,7 @@
 title: Location
 date: 2016-12-26 16:15:00 Z
 position: 3
-layout: page
+layout: map
 Field name:
   Address Line 1: 7171 Woodmont Ave
   Address Line 2: 
