@@ -6,4 +6,3 @@ layout: floorplan
 header: Available Floorplans Remaining for Purchase
 ---
 
-
