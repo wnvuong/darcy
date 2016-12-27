@@ -1,6 +1,7 @@
 ---
 title: Contact
 date: 2016-12-26 16:42:00 Z
+layout: page
 position: 8
 is shown in footer: true
 ---
