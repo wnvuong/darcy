@@ -4,7 +4,7 @@ date: 2016-12-26 16:21:00 Z
 position: 4
 layout: features
 header: Amenities & Services
-image: '/uploads/features.jpg'
+image: "/uploads/features.jpg"
 Blocks:
 - Description: |-
     ## BUILDING AMENITIES
@@ -47,3 +47,4 @@ Blocks:
 
     The Darcy brings a dynamic combination of new stores to Bethesda Avenue. With over 8,600 square feet of retail on the first floor, The Darcy will include a signature restaurant and boutique shops for residents to enjoy.
 ---
+
