@@ -102,6 +102,7 @@ p { line-height: 1.75; margin-bottom: 10px; }
 .floorplan-individual__info { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
 @media (min-width: 701px) { .floorplan-individual__info h1 { margin-top: 0; }
   .floorplan-individual__info-image { margin-right: 50px; } }
+@media (max-width: 700px) { .floorplan-individual__info-image { width: 100%; } }
 .floorplan-individual .btn-contact { margin-top: 20px; }
 .floorplan-individual .disclaimer { margin-top: 20px; }
 
