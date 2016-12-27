@@ -1,0 +1,13 @@
+---
+layout: hero
+---
+
+<h1>
+  {{ page.header }}
+</h1>
+
+<div class="features">
+  {% for block in page.Blocks %}
+    {{ block.Description | markdownify }}
+  {% endfor %}
+</div>

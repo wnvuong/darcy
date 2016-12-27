@@ -237,3 +237,18 @@
         }
     }
 }
+
+.features {
+    ul {
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+    li {
+        padding: 5px 5px 0 0;
+        &:before {
+            content: '•';
+            padding-right: 10px;
+        }
+    }
+}
