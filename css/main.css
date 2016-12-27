@@ -32,6 +32,14 @@ p { line-height: 1.75; margin-bottom: 10px; }
 
 .nowrap { white-space: nowrap; }
 
+.img-responsive { max-width: 100%; height: auto; }
+
+.small { font-size: 12px; }
+
+.btn-primary { display: inline-block; background: white; color: #B03060; border: 2px solid #B03060; padding: 10px 20px; font-size: 18px; }
+.btn-primary:visited { background: white; color: #B03060; }
+.btn-primary:hover { background: #B03060; color: white; }
+
 .wrapper { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
 @media (min-width: 1241px) { .wrapper { padding: 0 80px; } }
 
@@ -91,6 +99,12 @@ p { line-height: 1.75; margin-bottom: 10px; }
 .floorplans__item-info { -webkit-align-self: flex-end; align-self: flex-end; }
 .floorplans__item-info h2 { color: #B03060; }
 
+.floorplan-individual__info { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; }
+@media (min-width: 701px) { .floorplan-individual__info h1 { margin-top: 0; }
+  .floorplan-individual__info-image { margin-right: 50px; } }
+.floorplan-individual .btn-contact { margin-top: 20px; }
+.floorplan-individual .disclaimer { margin-top: 20px; }
+
 @media (min-width: 701px) { .features ul { columns: 2; -webkit-columns: 2; -moz-columns: 2; } }
 .features li { position: relative; padding: 5px 5px 0 15px; }
 .features li:before { content: '•'; padding-right: 10px; position: absolute; left: 0; }
@@ -113,7 +127,7 @@ p { line-height: 1.75; margin-bottom: 10px; }
 
 .small-meta { display: inline-block; margin-top: 10px; }
 
-#mc-embedded-subscribe { margin-top: 20px; background: white; color: #B03060; border: 2px solid #B03060; padding: 10px 20px; font-size: 18px; }
+#mc-embedded-subscribe { margin-top: 20px; }
 #mc-embedded-subscribe:hover { cursor: pointer; }
 
 #mce-FNAME, #mce-LNAME, #mce-EMAIL, #mce-ADDRESS-addr1, #mce-ADDRESS-addr2, #mce-ADDRESS-city, #mce-ADDRESS-zip, #mce-ADDRESS-state, #mce-ADDRESS-country, #mce-COMMENTS, #mce-RESIDENCE { width: 100%; max-width: 100%; }
