@@ -247,6 +247,29 @@
     }
 }
 
+.floorplan-individual {
+    &__info {
+        @include flexbox();
+        @include flex-wrap(wrap);
+        @media (min-width: 701px) {
+            h1 {
+                margin-top: 0;
+            }
+
+            &-image {
+                margin-right: 50px;
+            }
+        }   
+    }
+
+    .btn-contact {
+        margin-top: 20px;
+    }
+    .disclaimer {
+        margin-top: 20px;
+    }
+}
+
 .features {
     ul {
         @media (min-width: 701px) {
@@ -337,11 +360,6 @@
         cursor: pointer;
     }
     margin-top: 20px;
-    background: white;
-    color: $brand-color;
-    border: 2px solid $brand-color;
-    padding: 10px 20px;
-    font-size: 18px;
 }
 
 #mce-FNAME,

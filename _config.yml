@@ -23,7 +23,8 @@ defaults:
     permalink: "/floorplans/:title"
     image: 
     square footage: 
-    layout: page
+    layout: floorplan-individual
+    disclaimer: The specifications, dimensions, furniture and features shown on floor plans on this site are for illustrative purposes only, and shall not be relied upon as the basis of any contract, warranty or other claim. All such information is subject change at any time without notice. Illustrations are artists’ conceptions and may vary in precise detail from the item depicted. Prices are subject to change without notice. All square footages and dimensions are approximate. Approximate square footages of terraces and balconies, if applicable, are as noted on the PDF versions of the floor plans. Plans are not to scale.
 email: me@williamvuong.com
 description: 'Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for Google search
