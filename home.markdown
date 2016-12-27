@@ -27,5 +27,4 @@ layout: default
         {{ page["call to action"].header }}
       </a>
   </div>
-  </div>
 </div>

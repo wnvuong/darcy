@@ -23,6 +23,8 @@ table {
 
 html {
     box-sizing: border-box;
+    min-height: 100vh;
+    background: #E5E5E4;
 }
 *, *:before, *:after {
     font-family: $base-font-family;

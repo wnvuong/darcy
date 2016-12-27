@@ -1,11 +1,13 @@
 .wrapper {
     max-width: $content-width;
     margin: 0 auto;
-    @media (max-width: $content-width + 40px) {
-        margin: 0 20px;
-    }
+    padding: 0 20px;
 }
-
+.page {
+    max-width: 840px;
+    margin: 0 auto;
+    min-height: 100%;
+}
 .site-nav-toggle-menu {
     @media (min-width: 700px) {
         display: none;
@@ -17,7 +19,7 @@
 }
 
 .site-header {
-
+    
     &__title {
         font-size: 24px;
         font-weight: bold;
@@ -30,6 +32,7 @@
     }
 
     &__content {
+        background: white;
         @include flexbox();
         @include justify-content(space-between);
         @include align-items(center);
@@ -149,7 +152,10 @@
 }
 
 .site-footer {
-    padding: 20px 0;
+    &__content {
+        padding: 20px 20px;
+        background: white;
+    }
 
     &__elem {
         display: inline-block; 
