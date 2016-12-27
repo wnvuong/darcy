@@ -8,7 +8,7 @@ header: ONLY 5 UNITS LEFT
 image: "/uploads/hero2-compressor.png"
 call to action:
   header: SEE AVAILABLE FLOORPLANS
-  page url: "/floor-plans"
+  page url: "/floorplans"
 Field name: 
 layout: hero
 ---
