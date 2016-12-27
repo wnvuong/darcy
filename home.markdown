@@ -5,11 +5,11 @@ permalink: "/"
 position: 0
 is hidden from nav: true
 header: ONLY 5 UNITS LEFT
+image: "/uploads/hero2-compressor.png"
 call to action:
   header: SEE AVAILABLE FLOORPLANS
   page url: "/floor-plans"
-  image: "/uploads/hero2-compressor.png"
 Field name: 
-layout: home
+layout: hero
 ---
 

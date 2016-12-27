@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="page page--hero">
+  <div class="hero-image">
+    <div class="hero-image__image-container">
+      <img src="{{ page.image }}" alt="stock photo" />
+      <div class="hero-image__overlay"></div>
+    </div>
+    <div class="wrapper">
+      {% if page["call to action"] != null %}
+        <div class="hero-image__cta">
+          <h1 class="hero-image__cta-header">
+            {{ page.header }}
+          </h1>
+          <a class="hero-image__cta-link" href="{{ page["call to action"]["page url"] }}">
+            {{ page["call to action"].header }}
+          </a>
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<div class="page">
+  <div class="wrapper">
+    {{ content }}  
+  </div>
+</div>

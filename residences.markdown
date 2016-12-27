@@ -2,6 +2,8 @@
 title: Residences
 date: 2016-12-26 16:13:00 Z
 position: 2
+layout: hero
+image: '/uploads/residences.jpg'
 ---
 
 # A place to call home

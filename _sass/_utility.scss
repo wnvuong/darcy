@@ -15,6 +15,16 @@
   align-items:          $position
 }
 
+@mixin flex-wrap($position) {
+  -webkit-flex-wrap:  $position;
+  flex-wrap:          $position
+}
+
+@mixin align-self($position) {
+  -webkit-align-self:  $position;
+  align-self:          $position
+}
+
 @mixin box-shadow($shadow) {
    -moz-box-shadow:    $shadow;
    -webkit-box-shadow: $shadow;
