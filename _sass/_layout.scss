@@ -240,6 +240,9 @@
 
         &-info {
             @include align-self(flex-end);
+            h2 {
+                color: $brand-color;
+            }
         }
     }
 }
@@ -278,16 +281,14 @@
     textarea,
     select {
         border: 1px solid $grey-color;
-        font-size: 14px;
+        font-size: 16px;
         padding: 10px;
         height: 38px;
+        border-radius: 5px;
     }
 
     select {
         height: 38px;
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        -webkit-appearance: none;
     }
 
     label {
