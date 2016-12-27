@@ -13,25 +13,15 @@ Blocks:
     The Darcy building services and amenities will include:
 
     * 24/7 front desk concierge service
-
     * Two hospitality suites avaialble for guests
-
     * Clubroom with media services
-
     * Electronic package tracking system
-
     * Residents' lounge with espresso maker and kitchenette
-
     * State-of-the-art fitness center
-
     * Secure garage with car wash bay area
-
     * Daily periodicals in lounge
-
     * Access to adjacent luxury apartment rooftop
-
     * Bicycle parking
-
     * Business center
 - Description: |-
     ## RESIDENT SERVICES
