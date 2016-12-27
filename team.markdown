@@ -3,7 +3,7 @@ title: Team
 date: 2016-12-26 16:40:00 Z
 position: 5
 layout: hero
-image: '/uploads/residences.jpg'
+image: "/uploads/residences.jpg"
 ---
 
 # The Team
