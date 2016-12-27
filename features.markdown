@@ -2,7 +2,7 @@
 title: Features
 date: 2016-12-26 16:21:00 Z
 position: 4
-Field name:
+Blocks:
 - Description: |-
     BUILDING AMENITIES
 
