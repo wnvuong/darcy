@@ -1,7 +1,12 @@
 @charset "UTF-8";
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
 
-body { line-height: 1; }
+body { display: -webkit-box; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-flow: column; flex-flow: column; -webkit-justify-content: center; justify-content: center; line-height: 1; min-height: 100%; }
+
+header, footer { -webkit-flex: 0 0 auto; -ms-flex: 0 0 auto; flex: 0 0 auto; }
+
+.main { -webkit-flex: 1 1 auto; -ms-flex: 1 1 auto; flex: 1 1 auto; background: white; }
+@media (min-width: 1241px) { .main { align-self: center; width: 1240px; } }
 
 ol, ul { list-style: none; }
 
@@ -11,7 +16,7 @@ blockquote:before, blockquote:after, q:before, q:after { content: ''; content: n
 
 table { border-collapse: collapse; border-spacing: 0; }
 
-html { box-sizing: border-box; min-height: 100vh; background: #E5E5E4; }
+html { box-sizing: border-box; height: 100%; background: #E5E5E4; }
 
 *, *:before, *:after { font-family: "Roboto", sans-serif; box-sizing: inherit; margin: 0; padding: 0; border: 0; vertical-align: baseline; }
 
@@ -43,7 +48,7 @@ p { line-height: 1.75; margin-bottom: 10px; }
 .wrapper { max-width: 1240px; margin: 0 auto; padding: 0 20px; }
 @media (min-width: 1241px) { .wrapper { padding: 0 80px; } }
 
-.page { max-width: 1240px; margin: 0 auto; min-height: 100%; background: white; padding: 40px 0; }
+.page { max-width: 1240px; margin: 0 auto; background: white; padding: 40px 0; }
 .page--hero { padding: 0; }
 
 .site-nav-toggle-menu { color: #030303; background: white; font-size: 16px; padding: 10px; }
