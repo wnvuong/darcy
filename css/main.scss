@@ -44,7 +44,7 @@ $content-width:    1240px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
         "utility",
+        "base",
         "layout"
 ;

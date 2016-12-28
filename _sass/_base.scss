@@ -3,7 +3,23 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+    @include flexbox();
+    @include flex-flow(column);
+    @include justify-content(center);
 	line-height: 1;
+    min-height: 100%;
+}
+header,
+footer {
+    @include flex(0 0 auto);
+}
+.main {
+    @include flex(1 1 auto);
+    background: white;
+    @media (min-width: $content-width + 1) {
+        align-self: center;
+        width: $content-width;
+    }
 }
 ol, ul {
 	list-style: none;
@@ -23,7 +39,7 @@ table {
 
 html {
     box-sizing: border-box;
-    min-height: 100vh;
+    height: 100%;
     background: #E5E5E4;
 }
 *, *:before, *:after {

@@ -7,22 +7,33 @@
 
 @mixin justify-content($position) {
   -webkit-justify-content:  $position;
-  justify-content:          $position
+  justify-content:          $position;
 }
 
 @mixin align-items($position) {
   -webkit-align-items:  $position;
-  align-items:          $position
+  align-items:          $position;
 }
 
 @mixin flex-wrap($position) {
   -webkit-flex-wrap:  $position;
-  flex-wrap:          $position
+  flex-wrap:          $position;
 }
 
 @mixin align-self($position) {
   -webkit-align-self:  $position;
-  align-self:          $position
+  align-self:          $position;
+}
+
+@mixin flex-flow($position) {
+  -webkit-flex-flow:  $position;
+  flex-flow:          $position;
+}
+
+@mixin flex($position) {
+  -webkit-flex:  $position;
+  -ms-flex:      $position;
+  flex:          $position;
 }
 
 @mixin box-shadow($shadow) {
