@@ -1,10 +1,8 @@
 ---
 title: Contact
-date: {}
 position: 8
 layout: page
 is shown in footer: true
-published: true
 ---
 
 # Thank you for contacting The Darcy.
